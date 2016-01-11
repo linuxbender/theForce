@@ -1,0 +1,31 @@
+{
+  "name": "theforce",
+  "description": "theForce",
+  "main": "index.js",
+  "authors": [
+    "daniel glenn"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "theForce"
+  ],
+  "homepage": "https://github.com/linuxbender/theForce",
+  "moduleType": [],
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-sanitize": "~1.4.8",
+    "angular-ui-router": "~0.2.15",
+    "lodash": "~3.10.1",
+    "angular-gridster": "~0.13.5"
+  },
+  "devDependencies": {
+    "angular-mocks": "~1.4.8"
+  }
+}

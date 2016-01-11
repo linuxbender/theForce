@@ -1,0 +1,23 @@
+{
+  "name": "theforce",
+  "version": "0.0.1",
+  "description": "theForce",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "postinstall": "bower install && tsd install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/linuxbender/theForce.git"
+  },
+  "keywords": [
+    "theForce"
+  ],
+  "author": "daniel glenn",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/linuxbender/theForce/issues"
+  },
+  "homepage": "https://github.com/linuxbender/theForce#readme"
+}
