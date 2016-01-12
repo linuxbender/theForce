@@ -4,7 +4,7 @@
   "description": "theForce",
   "main": "index.js",
   "scripts": {
-    "test": "mocha",
+    "test": "npm run tsc.dev && mocha --recursive ./built/test",
     "postinstall": "bower install && tsd install",
     "tsc.dev": "tsc -p src/client/ && tsc -p src/server/ && tsc -p src/test/ && tsc -p src/e2e"
   },
