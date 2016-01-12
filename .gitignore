@@ -27,5 +27,5 @@ build/Release
 node_modules
 typings
 bower_components
-build
+built
 tmp

@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "mocha",
-    "postinstall": "bower install && tsd install"
+    "postinstall": "bower install && tsd install",
+    "tsc.dev": "tsc -p src/client/ && tsc -p src/server/ && tsc -p src/test/ && tsc -p src/e2e"
   },
   "repository": {
     "type": "git",
