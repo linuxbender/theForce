@@ -14,9 +14,6 @@
     "es6-promise/es6-promise.d.ts": {
       "commit": "faa49cc68025118355b677b936892435b9be7247"
     },
-    "angularjs/legacy/angular-scenario-1.2.d.ts": {
-      "commit": "faa49cc68025118355b677b936892435b9be7247"
-    },
     "angularjs/angular-component-router.d.ts": {
       "commit": "faa49cc68025118355b677b936892435b9be7247"
     },
