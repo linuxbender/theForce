@@ -3,10 +3,12 @@
         "module": "commonjs",
         "target": "es5",
         "noImplicitAny": false,
-        "outDir": "../../built/client",
+        "outDir": "../../build/client",
         "rootDir": ".",
         "sourceMap": true,
-        "inlineSources": true
+        "inlineSources": false,
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true
     },
     "exclude": [
         "node_modules"

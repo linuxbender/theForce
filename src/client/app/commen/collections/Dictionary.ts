@@ -1,15 +1,14 @@
 /// <reference path="../tsd.d.ts" />
 
 namespace theforce.client.app.commen.collections {
-    
     export class Dictionary<T> implements IDictionary<T> {
 
         private keys: string[] = [];
         private values: T[] = [];
         private valueDictionary: { [key: string]: T } = {};
-        
+
         constructor() {}
-        
+
         Add(key: string, value: T) {
             this.valueDictionary[key] = value;
             this.keys.push(key);
@@ -38,15 +37,14 @@ namespace theforce.client.app.commen.collections {
             }
             return true;
         }
-        
         GetValue(key: string): T {
             return <T>this.valueDictionary[key];
         }
-        
+
         SetValue(key: string, value: T) {
             let index = this.keys.indexOf(key);
             this.values[index] = value;
             this.valueDictionary[key] = value;
         }
-    }//end of class
+    }// end of class
 }

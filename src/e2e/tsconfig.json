@@ -3,10 +3,10 @@
         "module": "commonjs",
         "target": "es5",
         "noImplicitAny": false,
-        "outDir": "../../built/e2e",
+        "outDir": "../../build/e2e",
         "rootDir": ".",
         "sourceMap": true,
-        "inlineSources": true
+        "inlineSources": false
     },
     "exclude": [
         "node_modules"

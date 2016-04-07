@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/linuxbender/theForce/issues"
   },
-  "homepage": "https://github.com/linuxbender/theForce#readme"
+  "homepage": "https://github.com/linuxbender/theForce#readme",
+  "dependencies": {
+    "reflect-metadata": "^0.1.3"
+  }
 }
